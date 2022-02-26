@@ -24,6 +24,12 @@ body {
   flex-direction: column;
 }
 
+@media (max-width: 900px) {
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+  }
+}
+
 body #content {
   width: 25vw;
   background-color: white;

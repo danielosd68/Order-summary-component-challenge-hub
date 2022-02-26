@@ -30,6 +30,11 @@ html
 
     flex-direction:column;
 
+    @media (max-width:900px)
+    {
+        background-image:url('images/pattern-background-mobile.svg');
+    }
+
 
 
     #content 
