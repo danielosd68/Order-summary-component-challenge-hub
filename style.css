@@ -110,6 +110,11 @@ body #content #section #plan #main #music-icon {
   align-items: center;
 }
 
+body #content #section #plan #change-button:hover a {
+  color: #675cdb;
+  text-decoration: none;
+}
+
 body #content #section .buttons {
   width: 100%;
   display: flex;
@@ -121,6 +126,8 @@ body #content #section .buttons {
 
 body #content #section .buttons #blue-button:hover {
   cursor: pointer;
+  background-color: #675cdb;
+  box-shadow: 3px 21px 31px -11px #7176db;
 }
 
 body #content #section .buttons #blue-button {
@@ -134,10 +141,13 @@ body #content #section .buttons #blue-button {
   margin-bottom: 2vh;
   margin-top: 2vh;
   user-select: none;
+  transition: 0.2s box-shadow ease-in-out;
 }
 
 body #content #section .buttons #cancel-button:hover {
   cursor: pointer;
+  color: #1f2f56;
+  font-weight: bolder;
 }
 
 body #content #section .buttons #cancel-button {
@@ -149,4 +159,5 @@ body #content #section .buttons #cancel-button {
   border-radius: 10px;
   margin-bottom: 2vh;
   user-select: none;
+  transition: 0.1s font-weight ease-in-out;
 }
